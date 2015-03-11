@@ -77,7 +77,7 @@ public class WidgetTest extends ActiveAndroidModelSpec {
         JsonObject actual = (JsonObject) jsonParser.parse(json);
 
         JsonObject expected = new JsonObject();
-        expected.addProperty("name", DUMMY_NAME);
+        expected.addProperty("name", "ghdk");
         expected.addProperty("age", DEFAULT_AGE);
         expected.addProperty("points", DEFAULT_POINTS);
         expected.add("m_table_info", new JsonObject());
