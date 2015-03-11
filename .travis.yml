@@ -35,4 +35,6 @@ android:
 
 script:
   - ./gradlew testDebug --quiet
+  
+after_script:
   - ./scripts/test_results.sh
